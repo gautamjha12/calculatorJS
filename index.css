@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: block;
+    padding: 100px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.301),  rgb(55, 124, 167));
+
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    
+}
+
+#calculator
+{
+    width: 320px;
+    margin: 0 auto;
+    height: 520px;
+    background-image: linear-gradient(to left, rgba(56, 13, 13, 0.301),  rgb(55, 124, 167));
+    top: 20px   ;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px;
+}
+
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px ;
+    font-size: 15px;
+    color: #31070780;
+    color: rgba(2, 11, 19, 0.61) ;
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin:  10px 20px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.number, .empty{
+    background-color: rgba(58, 124, 146, 0.26);
+
+}
+
+.number, .operator{
+    cursor: pointer;
+
+
+.number:active, .operator:active{
+    font-size: 12px;
+}
+
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+
+
+button:nth-child(4){
+    font-size: 18px;
+    background-color: #20b2aa;
+
+}
+
+button:nth-child(8){
+    font-size: 18px;
+    background-color: #ffa500;
+
+}
+
+button:nth-child(12){
+    font-size: 18px;
+    background-color: #f08080;
+
+}
+
+button:nth-child(16){
+    font-size: 18px;
+    background-color: #7d93e0;
+
+}
+
+button:nth-child(20){
+    font-size: 18px;
+    background-color: #9477af;
+
+}
