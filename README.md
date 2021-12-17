@@ -1,2 +1,3 @@
 # calculatorJS
-Another mini project trting hands on JavaScript
+
+##Another mini project trying hands on JavaScript
